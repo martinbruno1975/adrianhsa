@@ -8212,7 +8212,8 @@ html:not(.tablet):not(.mobile) .profile-minimal-caption {
 
 .slider-timeline {
 	font-size: 14px;
-	color: rgba(255, 255, 255, 0.4);
+	/*color: rgba(255, 255, 255, 0.4);*/
+	color: #af8855;
 }
 
 @media (min-width: 768px) {
