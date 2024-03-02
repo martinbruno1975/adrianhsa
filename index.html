@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
+<html class="wide wow-animation" lang="es">
   <head>
     <title>ADRIAN H. SA | Constructora</title>
     <meta charset="utf-8">
+    <meta name="description" content="Projectos y servicios de la constructora Adrian e Hijos S.A.">
+    <meta name="keywords" content="Adrianhsa, constructora, obras, privadas, publicas, excavaciones, proyecto, direccion, refacciones, ampliaciones, infraestructuras, edificios, viviendas, unifamiliares, multifamiliares, pavimentacion, puentes, red agua, red cloacal, red desague pluvial">
+    <meta name="author" content="Martin Bruno">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
@@ -223,9 +226,19 @@
       <section class="section section-lg bg-gray-lighten text-center">
         <div class="container">
           <h3 class="font-condensed wow-outer"><span class="wow slideInDown">Nuestros Projectos</span></h3>
-          <div class="isotope offset-top-2" data-isotope-layout="masonry">
+          <button data-isotope-filter="*" data-isotope-group="gallery">
+            Mostrar todas
+        </button>
+        <button data-isotope-filter="terminado" data-isotope-group="gallery">
+            Projectos terminados
+        </button>
+        <button data-isotope-filter="en-ejecucion" data-isotope-group="gallery">
+            Obras en ejecución
+        </button>
+
+          <div class="isotope offset-top-2" data-isotope-layout="masonry" data-isotope-group="gallery">
             <div class="row row-30">
-              <div class="col-12 col-sm-6 col-lg-4 isotope-item wow-outer">
+              <div class="col-12 col-sm-6 col-lg-4 isotope-item wow-outer" data-filter="terminado">
                           <!-- Thumbnail Corporate-->
                           <article class="thumbnail-corporate wow slideInDown"><img class="thumbnail-corporate-image" src="images/gallery-masonry-1-370x256.jpg" alt="" width="370" height="256"/>
                             <div class="thumbnail-corporate-caption">
@@ -299,19 +312,19 @@
             <div class="col-sm-6 col-lg-4 wow-outer">
               <!-- Box Creative-->
               <article class="box-creative wow slideInLeft">
-                <div class="box-creative-icon linearicons-lamp"></div>
+                <div class="box-creative-icon linearicons-apartment"></div>
                 <h4 class="font-condensed box-creative-title"><a href="single-service.html">Obras Privadas</a></h4>
-                <ul class="list-marked">
-                  <li>Edificios de viviendas unifamiliar y multifamiliar</li>
-                  <li>Comercios</li>
-                  <li>Naves Industriales</li>
-                </ul>
+                  <ul class="list-marked">
+                    <li>Edificios de viviendas unifamiliar y multifamiliar</li>
+                    <li>Comercios</li>
+                    <li>Naves Industriales</li>
+                  </ul>
               </article>
             </div>
             <div class="col-sm-6 col-lg-4 wow-outer">
               <!-- Box Creative-->
               <article class="box-creative wow slideInLeft" data-wow-delay=".1s">
-                <div class="box-creative-icon linearicons-compass"></div>
+                <div class="box-creative-icon linearicons-library2"></div>
                 <h4 class="font-condensed box-creative-title"><a href="single-service.html">Obras Públicas</a></h4>
                 <ul class="list-marked">
                   <li>Escuelas</li>
@@ -324,7 +337,7 @@
             <div class="col-sm-6 col-lg-4 wow-outer">
               <!-- Box Creative-->
               <article class="box-creative wow slideInLeft" data-wow-delay=".2s">
-                <div class="box-creative-icon linearicons-3d-rotate"></div>
+                <div class="box-creative-icon linearicons-road"></div>
                 <h4 class="font-condensed box-creative-title"><a href="single-service.html">Obras de Infraestructura</a></h4>
                 <ul class="list-marked">
                   <li>Red de agua potable
@@ -342,7 +355,7 @@
             <div class="col-sm-6 col-lg-4 wow-outer">
               <!-- Box Creative-->
               <article class="box-creative wow slideInLeft">
-                <div class="box-creative-icon linearicons-pencil3"></div>
+                <div class="box-creative-icon linearicons-shovel"></div>
                 <h4 class="font-condensed box-creative-title"><a href="single-service.html">Movimiento de suelos / Excavaciones</a></h4>
                 
               </article>
@@ -350,14 +363,14 @@
             <div class="col-sm-6 col-lg-4 wow-outer">
               <!-- Box Creative-->
               <article class="box-creative wow slideInLeft" data-wow-delay=".1s">
-                <div class="box-creative-icon linearicons-hammer-wrench"></div>
+                <div class="box-creative-icon linearicons-pencil-ruler"></div>
                 <h4 class="font-condensed box-creative-title"><a href="single-service.html">Proyecto y Dirección de Obras</a></h4>
               </article>
             </div>
             <div class="col-sm-6 col-lg-4 wow-outer">
               <!-- Box Creative-->
               <article class="box-creative wow slideInLeft" data-wow-delay=".2s">
-                <div class="box-creative-icon linearicons-bubble-text"></div>
+                <div class="box-creative-icon linearicons-hammer-wrench"></div>
                 <h4 class="font-condensed box-creative-title"><a href="single-service.html">Refacciones y Ampliaciones</a></h4>
               </article>
             </div>
@@ -453,27 +466,34 @@
     -->
       <!-- Partners-->
       <section class="section section-sm text-center">
-        <div class="container">
+        <div class="container">    
           <h3 class="font-condensed wow-outer"><span class="wow slideInUp">Proveedores</span></h3>
+
           <!-- Owl Carousel-->
-          <div class="owl-carousel owl-carousel-1" data-items="2" data-sm-items="3" data-md-items="4" data-lg-items="5" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="false">
+          <div class="owl-carousel owl-carousel-1" data-items="2" data-sm-items="3" data-md-items="4" data-lg-items="5" data-dots="false" data-nav="false" data-stage-padding="0" data-loop="true" data-margin="15" data-mouse-drag="false" data-autoplay="true">
             <div class="item wow-outer">
-              <div class="wow slideInLeft"><a class="link-image" href="#"><img src="images/logo-john-brad-135x87.png" alt="" width="135" height="87"/></a></div>
+              <div class="wow slideInLeft"><a class="link-image" href="#"><img src="images/logos_proveedores/acindar.png" alt="" width="135" height="87"/></a></div>
             </div>
             <div class="item wow-outer">
-              <div class="wow slideInLeft" data-wow-delay=".05s"><a class="link-image" href="#"><img src="images/logo-the-oldbrand-134x104.png" alt="" width="134" height="104"/></a></div>
+              <div class="wow slideInLeft" data-wow-delay=".05s"><a class="link-image" href="#"><img src="images/logos_proveedores/dersa.jpg" alt="" width="134" height="104"/></a></div>
             </div>
             <div class="item wow-outer">
-              <div class="wow slideInLeft" data-wow-delay=".1s"><a class="link-image" href="#"><img src="images/logo-havana-cabana-132x87.png" alt="" width="132" height="87"/></a></div>
+              <div class="wow slideInLeft" data-wow-delay=".1s"><a class="link-image" href="#"><img src="images/logos_proveedores/fenomix.png" alt="" width="132" height="87"/></a></div>
             </div>
             <div class="item wow-outer">
-              <div class="wow slideInLeft" data-wow-delay=".15s"><a class="link-image" href="#"><img src="images/logo-brownie-143x85.png" alt="" width="143" height="85"/></a></div>
+              <div class="wow slideInLeft" data-wow-delay=".15s"><a class="link-image" href="#"><img src="images/logos_proveedores/fernandez.png" alt="" width="143" height="85"/></a></div>
             </div>
             <div class="item wow-outer">
-              <div class="wow slideInLeft" data-wow-delay=".2s"><a class="link-image" href="#"><img src="images/logo-hillplan-111x85.png" alt="" width="111" height="85"/></a></div>
+              <div class="wow slideInLeft" data-wow-delay=".2s"><a class="link-image" href="#"><img src="images/logos_proveedores/horba.jpg" alt="" width="650" height="255"/></a></div>
             </div>
             <div class="item wow-outer">
-              <div class="wow slideInLeft" data-wow-delay=".2s"><a class="link-image" href="#"><img src="images/logo-hillplan-111x85.png" alt="" width="111" height="85"/></a></div>
+              <div class="wow slideInLeft" data-wow-delay=".2s"><a class="link-image" href="#"><img src="images/logos_proveedores/logobz1.png" alt="" width="718" height="224"/></a></div>
+            </div>
+            <div class="item wow-outer">
+              <div class="wow slideInLeft" data-wow-delay=".2s"><a class="link-image" href="#"><img src="images/logos_proveedores/logo-nuciari.png" alt="" width="173" height="110"/></a></div>
+            </div>
+            <div class="item wow-outer">
+              <div class="wow slideInLeft" data-wow-delay=".2s"><a class="link-image" href="#"><img src="images/logos_proveedores/polisolvo.png" alt="" width="442" height="117"/></a></div>
             </div>
           </div>
         </div>
@@ -486,7 +506,7 @@
                     <div class="col-lg-4">
                       <div class="inset-right-1">
                         <h5 class="font-condensed text-uppercase text-white fw-bold">Sobre Nosotros</h5>
-                        <p>R&amp;CO company is a diversified global architecture company that brings the best designers and architects together. We have been offering great design solutions to individual and corporate customers worldwide since the late 1990s.</p>
+                        <p>ADRIAN e HIJOS S.A. es una empresa constructora dedicada a ofrecer soluciones integrales en el sector de la construcción.</p>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-7 col-lg-4">

@@ -139,9 +139,18 @@
       </section>
       <section class="section section-lg bg-gray-lighten text-center bg-gray-100">
         <div class="container">
-          <div class="isotope offset-top-2" data-isotope-layout="masonry">
+          <button data-isotope-filter="*" data-isotope-group="gallery">
+            Show All
+        </button>
+        <button data-isotope-filter="type-1" data-isotope-group="gallery">
+            Type 1
+        </button>
+        <button data-isotope-filter="type-2" data-isotope-group="gallery">
+            Type 2
+        </button>
+          <div class="isotope offset-top-2" data-isotope-layout="masonry" data-isotope-group="gallery">
             <div class="row row-30">
-              <div class="col-12 col-sm-6 col-lg-4 isotope-item wow-outer">
+              <div class="col-12 col-sm-6 col-lg-4 isotope-item wow-outer" data-filter="type-1">
                           <!-- Thumbnail Corporate-->
                           <article class="thumbnail-corporate wow slideInDown"><img class="thumbnail-corporate-image" src="images/gallery-masonry-1-370x256.jpg" alt="" width="370" height="256"/>
                             <div class="thumbnail-corporate-caption">
@@ -151,7 +160,7 @@
                             <div class="thumbnail-corporate-dummy"> </div>
                           </article>
               </div>
-              <div class="col-12 col-sm-6 col-lg-4 isotope-item wow-outer">
+              <div class="col-12 col-sm-6 col-lg-4 isotope-item wow-outer" data-filter="type-2">
                           <!-- Thumbnail Corporate-->
                           <article class="thumbnail-corporate thumbnail-corporate-lg wow slideInDown"><img class="thumbnail-corporate-image" src="images/gallery-masonry-2-370x464.jpg" alt="" width="370" height="464"/>
                             <div class="thumbnail-corporate-caption">
