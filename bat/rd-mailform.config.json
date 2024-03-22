@@ -1,7 +1,7 @@
 {
   "useSmtp": true,
   "host": "smtp.hostinger.com",
-  "port": 465,
+  "port": 587,
   "username": "info@adrianhsa.com.ar",
   "password": "Adrianhsa_2023",
   "recipientEmail": "info@adrianhsa.com.ar,martinbruno1975@gmail.com"
