@@ -2,8 +2,8 @@
   "useSmtp": true,
   "host": "smtp.gmail.com",
   "port": 465,
-  "username": "",
-  "password": "",
+  "username": " ",
+  "password": " ",
   "recipientEmail": ""
 }
 
