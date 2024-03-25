@@ -2,8 +2,8 @@
   "useSmtp": true,
   "host": "smtp.gmail.com",
   "port": 465,
-  "username": "martinbruno1975@gmail.com",
-  "password": "jacobass",
-  "recipientEmail": "info@adrianhsa.com.ar,martinbruno1975@gmail.com"
+  "username": "",
+  "password": "",
+  "recipientEmail": ""
 }
 

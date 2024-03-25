@@ -9,7 +9,6 @@ try {
     require './phpmailer/PHPMailerAutoload.php';
 
     $recipients = $formConfig['recipientEmail'];
-    $recipients = 'info@adrianhsa.com.ar,martinbruno1975@gmail.com';
 
     preg_match_all("/([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)/", $recipients, $addresses, PREG_OFFSET_CAPTURE);
 
